@@ -10,6 +10,19 @@
       "en": {
         "name": "15 Puzzle"
       }
-    }
+    },
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ]
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "4.1.0",
+    "@fitbit/sdk-cli": "1.7.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }
