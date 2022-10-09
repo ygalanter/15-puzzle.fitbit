@@ -1,6 +1,6 @@
 import document from "document";
 import { vibration } from "haptics";
-import * as messaging from "messaging";
+import * as messaging from "fitbit-file-messaging";
 import * as fs from "fs";
 import { me } from "appbit";
 
